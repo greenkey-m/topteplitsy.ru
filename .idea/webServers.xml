@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="b06ece34-efdd-41f6-9700-cbd6227d760a" name="production" url="http://92.63.105.168">
+      <webServer id="b06ece34-efdd-41f6-9700-cbd6227d760a" name="production" url="http://topteplitsy.ru">
         <fileTransfer host="92.63.105.168" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
