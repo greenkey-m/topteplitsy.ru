@@ -433,6 +433,18 @@ section#home_greens img {
 .field.opened {
     opacity: 1;
 }
+
+@media (min-width: 1400px) {
+    .line {
+        opacity: 1;
+    }
+    .field {
+        opacity: 1;
+    }
+
+}
+
+
 .field i {
     float: left;
     margin: 3px 10px 0 3px;
@@ -554,6 +566,50 @@ section#home_greens img {
 .field.p7 {
     left: 15%;
     top: 60%;
+}
+
+@media (min-width: 1400px){
+
+    .field {
+        min-width: 350px;
+        z-index: 2;
+    }
+
+    .field.p1 {
+        left: 15%;
+        top: 15%;
+    }
+
+    .field.p2 {
+        left: 15%;
+        top: 40%;
+    }
+
+    .field.p3 {
+        left: 15%;
+        top: 60%;
+    }
+
+    .field.p4 {
+        left: 67%;
+        top: 20%;
+    }
+
+    .field.p5 {
+        left: 67%;
+        top: 40%;
+    }
+
+    .field.p6 {
+        left: 67%;
+        top: 60%;
+    }
+
+    .field.p7 {
+        left: 15%;
+        top: 80%;
+    }
+
 }
 
 @media (max-width:800px) {
