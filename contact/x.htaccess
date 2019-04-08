@@ -1,0 +1,4 @@
+ErrorDocument 403 http://topteplitsy.ru
+Order deny,allow
+Deny from all
+Allow from 109.234.15.135

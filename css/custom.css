@@ -1,0 +1,687 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 14.03.2017, 20:52:30
+    Author     : matt
+*/
+
+
+h2.middle {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    padding-top: 2px;
+}
+
+h3.green {
+    color: green;
+    font-size: 18px;
+    margin-top: 5px;
+}
+h3.red {
+    color: red;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+h2 span.smallcaps {
+    font-size: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.scrollToTop {
+    color: #fff;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #000000;
+    z-index: 1005;
+    display: none;
+}
+.scrollToTop i {
+    color: white;
+    line-height: 50px;
+    font-size: 30px;
+}
+
+.first-nav .nav-menu ul li > a.inverse {
+    line-height: 43px;
+}
+
+.nav-menu ul li a.inverse {
+    border: 1px solid white;
+    height: 50%;
+    top: 25%;
+    line-height: 33px;
+}
+
+.navigation .nav-menu ul li a.inverse:hover {
+    border: 1px solid #e54343;
+    background: #e54343;
+    color: white;
+}
+
+
+.logo.f-left {
+    //border:1px solid red;
+    width: 300px;
+}
+
+.logo-link img {
+    float: left;
+    margin-right: 15px;
+}
+
+.first-nav .phone {
+    color: white;
+    font-size: 16px;
+}
+
+.phone {
+    color: black;
+    font-size: 16px;
+}
+
+.navigation .logo .phone img, .box .details img {
+    height: 15px;
+    display: inline;
+    margin-left: 5px;
+}
+
+.mts {
+
+}
+
+.tele2 {
+
+}
+
+
+.btn span.glyphicon {
+    opacity: 0;
+}
+.btn.active span.glyphicon {
+    opacity: 1;
+}
+
+
+
+.price_calc {
+    margin-top: 10px;
+}
+
+table.price_calc td {
+    margin: 0;
+    padding: 0;
+}
+
+table.price_calc td.data {
+    width: 30%;
+}
+
+.price_calc .form-group-lg .control-label {
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: right;
+}
+
+.price_calc .form-group-lg .control-label span {
+    color: #449d44;
+}
+
+.price_calc select, .price_calc input, .price_calc .form-control[readonly] {
+    min-width: 100px;
+    border: 1px solid green;
+    margin: 0px;
+    margin-top: 0px;
+    cursor: default;
+}
+
+.price_calc label.check {
+    padding: 12px 16px 16px 16px;
+    margin-top: 4px;
+    border-radius: 6px;
+}
+
+.price_calc .form-control.result, .price_calc .form-control.result[readonly], .price_calc .form-control.result::-moz-placeholder {
+    color: white;
+    background-color: #449d44;
+}
+
+
+
+
+.switch6 {  max-width: 17em;  margin: 0 auto; }
+.switch6-light > span, .switch-toggle > span {  color: #000000; }
+.switch6-light span span, .switch6-light label, .switch-toggle span span, .switch-toggle label {  color: #2b2b2b; }
+
+.switch-toggle a,
+.switch6-light span span { display: none; }
+
+.switch6-light { display: block; height: 45px; position: relative; overflow: visible; padding: 0px; margin-left:0px; }
+.switch6-light * { box-sizing: border-box; }
+.switch6-light a { display: block; transition: all 0.3s ease-out 0s; }
+
+.switch6-light label,
+.switch6-light > span { line-height: 45px; vertical-align: middle; font-size: 16px;}
+
+.switch6-light label {font-weight: 500; margin-bottom: px; max-width: 100%;}
+
+.switch6-light input:focus ~ a, .switch6-light input:focus + label { outline: 1px dotted rgb(136, 136, 136); }
+.switch6-light input { position: absolute; opacity: 0; z-index: 5; }
+.switch6-light input:checked ~ a { right: 0%; }
+.switch6-light > span { position: absolute; left: -100px; width: 100%; margin: 0px; padding-right: 100px; text-align: left; }
+.switch6-light > span span { position: absolute; top: 0px; left: 0px; z-index: 5; display: block; width: 50%; margin-left: 100px; text-align: center; }
+.switch6-light > span span:last-child { left: 50%; }
+.switch6-light a {
+    position: absolute;
+    right: 50%;
+    top: 0px;
+    -index: 4;
+    display: block;
+    width: 50%;
+    height: 100%;
+    padding: 0px;
+    background-color: #f59f03;
+    background: linear-gradient(to top, #f59f03, #efbb08);
+    border-radius: 6px;
+    border: 2px solid #e5680c;
+}
+
+
+
+.boxes {
+    padding: 10px 10px 0 10px;
+}
+
+
+.f-left div.image img {
+    right: 0;
+    position: relative;
+}
+
+footer .logo img {
+    width: 250px;
+}
+
+.tp-caption.largegreenbg_yellow {
+    max-height: 75px;
+}
+
+.b-left .image img {
+    border-radius: 200px 0 0 0;
+    width: 100%;
+}
+
+.b-left .image, .b-right .image {
+    background-color: #FFF;
+}
+
+.b-right .image img {
+    border-radius: 0 200px 0 0;
+    width: 100%;
+}
+
+#about .feature-box {
+    min-height: 142px;
+}
+
+#questions .feature-box {
+    min-height: 204px;
+}
+
+#questions .feature-boxes .feature-box .feature-text h4, #questions .feature-boxes.type-3 .feature-box .feature-text p {
+    color: #111;
+}
+
+#dangerous .feature-box {
+    min-height: 142px;
+}
+
+@media (max-width: 1280px){
+
+    #about .feature-box {
+        min-height: 162px;
+    }
+    #questions .feature-box {
+        min-height: 244px;
+    }
+}
+
+@media (max-width: 1000px){
+
+    #about .feature-box {
+        min-height: 182px;
+    }
+    #questions .feature-box {
+        min-height: 144px;
+    }
+}
+
+@media (max-width: 800px){
+
+    #about .feature-box {
+        min-height: 262px;
+    }
+    #questions .feature-box {
+        min-height: 286px;
+    }
+    #dangerous .feature-box {
+        min-height: 224px;
+    }
+}
+
+@media (max-width: 540px){
+
+    #about .feature-box {
+        min-height: 0px;
+    }
+    #questions .feature-box {
+        min-height: 0px;
+    }
+}
+
+.steps .inner {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.steps .inner h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+.steps div.col-xs-3 {
+    text-align:center;
+}
+
+.steps div.col-xs-3 div.image_icon span{
+    vertical-align:top;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.steps div.col-xs-3 p {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    color: #111;
+}
+
+
+
+section#home_small {
+    display: none;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+section#home_small img {
+    width: 100%;
+}
+
+
+section#home_greens {
+    width: 100%;
+    min-height: 100px;
+    overflow: hidden;
+    background: linear-gradient(to top, transparent, #0d0d0d);
+    position: relative;
+}
+
+section#home_greens img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+@media (max-width: 800px){
+    section#home {
+        display: none;
+    }
+
+    section#home_small {
+        display: block;
+    }
+
+    section#home_greens img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+
+}
+
+
+.contact .form button#submit {
+    color: black;
+}
+
+.contact .form.dark_form input, .contact .form.dark_form textarea {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-color: rgba(255, 255, 255, 0.6);
+    color: white;
+    margin-bottom: 25px;
+}
+
+.contact .address a.box {
+    height: auto;
+}
+
+.marker {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid red;
+    background: red;
+    color: white;
+    padding: 4px 7px;
+    margin: 0 0 0 -15px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out 0s;
+    z-index: 2;
+}
+.marker:hover {
+    background: white;
+    color: black;
+    border: 1px solid #F0F0F0;
+}
+.line {
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    border-top: 2px groove white;
+    border-right: 2px groove white;
+    transition: 0.3s ease-in-out 0s;
+    opacity: 0;
+    z-index: 1;
+}
+.line.opened {
+    opacity: 1;
+}
+.field {
+    position: absolute;
+    width: 20%;
+    min-height: 150px;
+    background: white;
+    color: black;
+    padding: 5px 10px;
+    transition: 0.3s ease-in-out 0s;
+    opacity: 0;
+    z-index: 1;
+}
+.field.opened {
+    opacity: 1;
+}
+.field i {
+    float: left;
+    margin: 3px 10px 0 3px;
+}
+.field h4 {
+    padding: 0;
+    margin: 0 0 5px 0;
+}
+.field p {
+    font-size: 12px;
+}
+
+.marker.p1 {
+    left: 42%;
+    top: 40%;
+}
+.line.p1 {
+    left: 35%;
+    top: 35%;
+    width: 7%;
+    height: 5%;
+}
+.field.p1 {
+    left: 15%;
+    top: 30%;
+}
+
+.marker.p2 {
+    left: 44%;
+    top: 50%;
+}
+.line.p2 {
+    left: 35%;
+    top: 49%;
+    width: 9%;
+    height: 1%;
+}
+.field.p2 {
+    left: 15%;
+    top:40%;
+}
+
+.marker.p3 {
+    left: 48%;
+    top: 60%;
+}
+.line.p3 {
+    left: 35%;
+    top: 59%;
+    width: 13%;
+    height: 1%;
+}
+.field.p3 {
+    left: 15%;
+    top:50%;
+}
+
+.marker.p4 {
+    left: 55%;
+    top: 40%;
+}
+.line.p4 {
+    border-left: 2px groove white;
+    border-right: 0;
+    left: 55%;
+    top: 37%;
+    width: 12%;
+    height: 3%;
+}
+.field.p4 {
+    left: 67%;
+    top: 30%;
+}
+
+.marker.p5 {
+    left: 60%;
+    top: 50%;
+}
+.line.p5 {
+    border-left: 2px groove white;
+    border-right: 0;
+    left: 60%;
+    top: 47%;
+    width: 7%;
+    height: 3%;
+}
+.field.p5 {
+    left: 67%;
+    top: 40%;
+}
+
+.marker.p6 {
+    left: 63%;
+    top: 60%;
+}
+.line.p6 {
+    border-left: 2px groove white;
+    border-right: 0;
+    left: 63%;
+    top: 57%;
+    width: 4%;
+    height: 3%;
+}
+.field.p6 {
+    left: 67%;
+    top: 50%;
+}
+
+.marker.p7 {
+    left: 45%;
+    top: 70%;
+}
+.line.p7 {
+    left: 35%;
+    top: 67%;
+    width: 10%;
+    height: 3%;
+}
+.field.p7 {
+    left: 15%;
+    top: 60%;
+}
+
+@media (max-width:800px) {
+
+    .field {
+        position: absolute;
+        width: 40%;
+        min-height: 150px;
+        background: white;
+        color: black;
+        padding: 5px 10px;
+        transition: 0.3s ease-in-out 0s;
+        opacity: 0;
+        z-index: 1;
+    }
+
+
+    .marker.p1 {
+        left: 42%;
+        top: 30%;
+    }
+    .line.p1 {
+        left: 35%;
+        top: 25%;
+        width: 7%;
+        height: 5%;
+    }
+    .field.p1 {
+        left: 0%;
+        top: 20%;
+    }
+
+    .marker.p2 {
+        left: 44%;
+        top: 45%;
+    }
+    .line.p2 {
+        left: 35%;
+        top: 44%;
+        width: 9%;
+        height: 1%;
+    }
+    .field.p2 {
+        left: 0%;
+        top:35%;
+    }
+
+    .marker.p3 {
+        left: 48%;
+        top: 60%;
+    }
+    .line.p3 {
+        left: 35%;
+        top: 59%;
+        width: 13%;
+        height: 1%;
+    }
+    .field.p3 {
+        left: 0%;
+        top:50%;
+    }
+
+    .marker.p4 {
+        left: 55%;
+        top: 30%;
+    }
+    .line.p4 {
+        border-left: 2px groove white;
+        border-right: 0;
+        left: 55%;
+        top: 27%;
+        width: 12%;
+        height: 3%;
+    }
+    .field.p4 {
+        left: 60%;
+        top: 20%;
+    }
+
+    .marker.p5 {
+        left: 55%;
+        top: 45%;
+    }
+    .line.p5 {
+        border-left: 2px groove white;
+        border-right: 0;
+        left: 55%;
+        top: 42%;
+        width: 5%;
+        height: 3%;
+    }
+    .field.p5 {
+        left: 60%;
+        top: 35%;
+    }
+
+    .marker.p6 {
+        left: 56%;
+        top: 60%;
+    }
+    .line.p6 {
+        border-left: 2px groove white;
+        border-right: 0;
+        left: 56%;
+        top: 57%;
+        width: 4%;
+        height: 3%;
+    }
+    .field.p6 {
+        left: 60%;
+        top: 50%;
+    }
+
+    .marker.p7 {
+        left: 45%;
+        top: 75%;
+    }
+    .line.p7 {
+        left: 35%;
+        top: 72%;
+        width: 10%;
+        height: 3%;
+    }
+    .field.p7 {
+        left: 0%;
+        top: 65%;
+    }
+}
+
+
+
