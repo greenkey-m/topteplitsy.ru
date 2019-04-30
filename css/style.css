@@ -8338,7 +8338,9 @@ div.pagination ul li.active a:hover{
 
 
 
-
+.header a:hover {
+    color: rgb(249, 87, 87);
+}
 
 
 

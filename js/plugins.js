@@ -14,6 +14,11 @@ jQuery(window).load(function () {
             var long = parseInt(arr[0], 10);
         }
 
+        if (jQuery(this).find('.window').is(":checked")) {
+            var price_win = parseInt(jQuery('meta[itemprop="window_price"]').attr('content'));
+            long = long + price_win;
+        }
+
         if (jQuery(this).find('.montage').is(":checked"))
         {
             long = long + parseInt(arr[2], 10);
@@ -35,6 +40,11 @@ jQuery(window).load(function () {
             var long = parseInt(arr[1], 10);
         } else {
             var long = parseInt(arr[0], 10);
+        }
+
+        if (jQuery(this).find('.window').is(":checked")) {
+            var price_win = parseInt(jQuery('meta[itemprop="window_price"]').attr('content'));
+            long = long + price_win;
         }
 
         if (jQuery(this).find('.montage').is(":checked"))
@@ -450,12 +460,12 @@ jQuery(window).load(function () {
         // Will be active on all categories
         autoPlay: false,
         singleItem: true
-                // "singleItem:true" is a shortcut for:
-                // items : 1
-                // itemsDesktop : false,
-                // itemsDesktopSmall : false,
-                // itemsTablet: false,
-                // itemsMobile : false
+        // "singleItem:true" is a shortcut for:
+        // items : 1
+        // itemsDesktop : false,
+        // itemsDesktopSmall : false,
+        // itemsTablet: false,
+        // itemsMobile : false
     });
 
 
@@ -464,8 +474,8 @@ jQuery(window).load(function () {
      =============================================== */
 
     var gridContainer = jQuery('.testimonial-slide'),
-            filtersContainer = jQuery('#filters-container'),
-            wrap, filtersCallback;
+        filtersContainer = jQuery('#filters-container'),
+        wrap, filtersCallback;
 
     gridContainer.cubeportfolio({
         layoutMode: 'slider',
@@ -479,9 +489,9 @@ jQuery(window).load(function () {
         scrollByPage: false,
         gridAdjustment: 'responsive',
         mediaQueries: [{
-                width: 1,
-                cols: 1
-            }],
+            width: 1,
+            cols: 1
+        }],
         gapHorizontal: 0,
         gapVertical: 0,
         caption: 'overlayBottomReveal',
@@ -780,13 +790,13 @@ jQuery(window).load(function () {
 
         // how many times to update the value, and how much to increment the value on each update
         var loops = Math.ceil(options.speed / options.refreshInterval),
-                increment = (options.to - options.from) / loops;
+            increment = (options.to - options.from) / loops;
 
         return jQuery(this).each(function () {
             var _this = this,
-                    loopCount = 0,
-                    value = options.from,
-                    interval = setInterval(updateTimer, options.refreshInterval);
+                loopCount = 0,
+                value = options.from,
+                interval = setInterval(updateTimer, options.refreshInterval);
 
             function updateTimer() {
                 value += increment;
@@ -822,13 +832,13 @@ jQuery(window).load(function () {
     // Count Options
     jQuery(".fact").appear(function () {
         dataperc = jQuery(this).attr('data-perc'),
-                //Count Factors Options
-                jQuery(this).find('.factor').delay(0).countTo({
-            from: 0,
-            to: dataperc,
-            speed: 3000,
-            refreshInterval: 50
-        });
+            //Count Factors Options
+            jQuery(this).find('.factor').delay(0).countTo({
+                from: 0,
+                to: dataperc,
+                speed: 3000,
+                refreshInterval: 50
+            });
     });
 
 })(jQuery);
@@ -839,8 +849,8 @@ jQuery(window).load(function () {
 
 jQuery('.progress-bar').appear(function () {
     datavl = jQuery(this).attr('data-value'),
-            // Add Data Value to Width
-            jQuery(this).animate({"width": datavl + "%"}, 300);
+        // Add Data Value to Width
+        jQuery(this).animate({"width": datavl + "%"}, 300);
     // Create Span
     jQuery(this).append("<span></span>");
     // Add value to Span
@@ -864,9 +874,9 @@ jQuery('.categories_full_screen .box').each(function () {
 
 jQuery('.strips').each(function () {
     dataWidth = jQuery(this).attr('data-width'),
-            dataHeight = jQuery(this).attr('data-height'),
-            // Change Width
-            jQuery(this).css({"width": dataWidth + "px"});
+        dataHeight = jQuery(this).attr('data-height'),
+        // Change Width
+        jQuery(this).css({"width": dataWidth + "px"});
     // Change Height
     jQuery(this).css({"height": dataHeight + "px"});
 });

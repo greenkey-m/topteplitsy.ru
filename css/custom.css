@@ -8,6 +8,10 @@ and open the template in the editor.
     Author     : matt
 */
 
+.nav-inner {
+    max-width: 1400px !important;
+}
+
 
 h2.middle {
     font-size: 20px;
@@ -582,17 +586,17 @@ section#home_greens img {
 
     .field.p2 {
         left: 15%;
-        top: 40%;
+        top: 37%;
     }
 
     .field.p3 {
         left: 15%;
-        top: 60%;
+        top: 59%;
     }
 
     .field.p4 {
         left: 67%;
-        top: 20%;
+        top: 18%;
     }
 
     .field.p5 {
@@ -602,7 +606,7 @@ section#home_greens img {
 
     .field.p6 {
         left: 67%;
-        top: 60%;
+        top: 62%;
     }
 
     .field.p7 {

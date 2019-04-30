@@ -1035,8 +1035,17 @@
             var mont = "нет";
         }
 
+        // Удаляем форму
+        Bitrix24FormLoader.unload(b24paramsload);
+        // Пересоздаём параметры формы
+        b24paramsload = initB24CrmDvsForm({'LEAD_COMMENTS': caption+" (длина: "+length+", шаг: "+long+" монтаж: "+mont+")"});
+        // Инициируем форму с новыми данными
+        b24form(b24paramsload);
+
+
         $("textarea#message").val(caption+" (длина:"+length+" шаг: "+long+" монтаж: "+mont+")");
         //$(this).siblings("form.price_calc");
+
     })
 
 //End Function
