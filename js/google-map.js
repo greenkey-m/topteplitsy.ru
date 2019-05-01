@@ -116,9 +116,7 @@ $(document).ready(function () {
         '<div id="siteNotice">' +
         '</div>' +
         '<h4>' +
-
         'Выставочный стенд Можайск' +
-
         '</h4>' +
         '<p>' +
 
@@ -141,8 +139,41 @@ $(document).ready(function () {
     google.maps.event.addListener(markerSecond, 'click', function () {
         infowindowSecond.open(map, markerSecond);
     });
+    /* ========= End Second Marker ========= */
+
+
+    /* ========= Third Marker ========= */
+    var myLatlngSecond = new google.maps.LatLng(55.514359, 36.019816);
+
+    var contentStringSecond = '<div id="content">' +
+        '<div id="siteNotice">' +
+        '</div>' +
+        '<h4>' +
+        'Выставочный стенд Можайск' +
+        '</h4>' +
+        '<p>' +
+        'ТЦ "Полгоры", здесь вы можете посмотреть наши теплицы.' +
+        '</p>' +
+        '</div>';
+
+    var infowindow5 = new google.maps.InfoWindow({
+        content: contentStringSecond,
+    });
+
+    var marker5 = new google.maps.Marker({
+        position: myLatlngSecond,
+        map: map,
+        title: 'Теплицы "Триумф"',
+        icon: image
+    });
+
+    google.maps.event.addListener(marker5, 'click', function () {
+        infowindow5.open(map, marker5);
+    });
 
     /* ========= End Second Marker ========= */
+
+
 
 
     var myLatlngSecond = new google.maps.LatLng(55.382893, 36.741969);
