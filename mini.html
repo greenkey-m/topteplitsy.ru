@@ -235,9 +235,7 @@
             Доставка
         </h4>
         <p itemprop="acceptedAnswer" itemscope itemtype="http://schema.org/Answer">
-            Мы осуществляем доставку наших теплиц в любую точку - Калужская область, Московская область, к вашим услугам
-            также
-            бригады высокопрофессиональных сборщиков.
+            Мы осуществляем доставку наших теплиц в любую точку - Калужская область, Московская область. Доставка по Можайску - бесплатно, в остальные места - 1000 руб.
         </p>
     </div>
 
@@ -510,6 +508,8 @@
 
                 <!-- Address Header -->
                 <div class="address_head">
+                    <h3>Доставка по Можайску - бесплатно!</h3>
+                    <h3>Доставка по Калужской или Московской области - от 1000 руб.</h3>
                     <!-- Header -->
                     <h3>
                         Посетите наш стенд с теплицами!
@@ -660,74 +660,32 @@
 
             <!-- Contact Form -->
             <div class="contact_form f-right">
-
-                <!--<h4 style="color:red;">Внимание! форма заявки временно не работает! Позвоните на телефон или закажите обратный звонок!</h4>-->
-
-                <!-- Form -->
-                <form id="contact_form" name="cform" class="clearfix form dark_form" method="post"
-                      action="contact/post.php">
-
-                    <!-- Name -->
-                    <input type="text" name="name" id="name" required placeholder="Ваше имя"/>
-
-                    <!-- Email -->
-                    <input type="email" name="email" id="email" required placeholder="Ваш e-mail"/>
-
-                    <!-- Phone -->
-                    <input type="text" name="phone" id="phone" required placeholder="Телефон"/>
-
-                    <!-- Subject -->
-                    <!--<input type="text" name="subject" id="subject" required placeholder="Тема" />-->
-
-                    <!-- Message -->
-                    <textarea name="message" id="message" required placeholder="Сообщение"></textarea>
-
-                    <!-- Captcha -->
-                    <div class="g-recaptcha" data-sitekey="6Ld7ZzEUAAAAAMQOY97gXWGTf8mmp7quDb3X54IO"
-                         data-callback="correctCaptcha"></div>
-                    <script>
-                        var correctCaptcha = function (response) {
-                            //alert(response);
-                            //replace #joinform with id of form you are using
-                            var rnuma = Math.floor(Math.random() * 5);
-                            var rnumb = Math.floor(Math.random() * 5);
-                            var sum = rnuma + rnumb;
-                            jQuery("body").append("<textarea id='math' style='display:none;'></textarea>");
-                            jQuery("#math").html(sum);
-                            jQuery("#verify").attr("placeholder", rnuma + "+" + rnumb + "= ?");
-
-                        };
-                    </script>
-
-                    <!-- Verify -->
-                    <input type="text" name="verify" id="verify" required placeholder=""/>
-
-                    <!-- Reset Button -->
-                    <button type="reset" id="clear" name="clear">Очистить</button>
-                    <!-- End Reset Button -->
-
-                    <!-- Send Button -->
-                    <button type="submit" id="submit" name="submit" class="colored-bg">Отправить</button>
-                    <!-- End Send Button -->
-
-                    <!-- Error Message -->
-                    <div class="error_message">
-                        <p class="t-left no-margin">
-                            <!-- Error Message Icon -->
-                            <i class="fa fa-warning"></i>
-                            Не прошло проверку. Пожалуйста, заполните все поля корректно и нажмите еще раз "отправить.
-                        </p>
-                    </div>
-                    <!-- Submit Message -->
-                    <div class="submit_message">
-                        <p class="t-left no-margin">
-                            <!-- Error Message Icon -->
-                            <i class="fa fa-check"></i>
-                            Спасибо ! Ваша заявка отправлена.
-                        </p>
-                    </div>
-                </form>
-                <!-- End Form -->
+                <script id="bx24_form_inline" data-skip-moving="true">
+                    /**
+                     * Инициализируем настройки формы, ОБЯЗАТЕЛЬНО указываем ref
+                     */
+                    function initB24CrmDvsForm(b24val) {
+                        return {"id":"3","lang":"ru","sec":"xh3vr7","type":"inline", "ref":'https://topteplitsy.bitrix24.ru/bitrix/js/crm/form_loader.js', "fields": {
+                                'values': b24val
+                            }};
+                    }
+                    var b24paramsload = initB24CrmDvsForm({});
+                    /**
+                     * Стандартное добавление скрипта и переменных для скрипта Б24
+                     */
+                    (function(w,d,u,b){w['Bitrix24FormObject']=b;
+                        w[b] = w[b] || function(){arguments[0].ref=u;
+                            (w[b].forms=w[b].forms||[]).push(arguments[0])};
+                        if(w[b]['forms']) return;
+                        s=d.createElement('script');
+                        r=1*new Date();
+                        s.async=1;
+                        s.src=u+'?'+r;
+                        h=d.getElementsByTagName('script')[0];
+                        h.parentNode.insertBefore(s,h);
+                    })(window,document,b24paramsload.ref,'b24form');
+                    b24form(b24paramsload);
+                </script>
             </div>
             <!-- End Contact Form -->
         </div>

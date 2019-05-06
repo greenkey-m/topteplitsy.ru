@@ -18,7 +18,7 @@
         <offers>
 
             <offer id="12x4x100" available="true">
-                <url>http://topteplitsy.ru/#triumf-standart</url>
+                <url>http://topteplitsy.ru/triumf-standart.html</url>
                 <price>14900</price>
                 <currencyId>RUR</currencyId>
                 <categoryId>2</categoryId>
@@ -56,7 +56,7 @@
             </offer>
 
             <offer id="44x4x100" available="true">
-                <url>http://topteplitsy.ru/#triumf-atlant</url>
+                <url>http://topteplitsy.ru/atlant.html</url>
                 <price>17100</price>
                 <currencyId>RUR</currencyId>
                 <categoryId>2</categoryId>
@@ -93,7 +93,7 @@
             </offer>
 
             <offer id="5x2x100" available="true">
-                <url>http://topteplitsy.ru/#triumf-fly</url>
+                <url>http://topteplitsy.ru/fly.html</url>
                 <price>4900</price>
                 <currencyId>RUR</currencyId>
                 <categoryId>2</categoryId>
@@ -128,7 +128,7 @@
             </offer>
 
             <offer id="43x4x100" available="true">
-                <url>http://topteplitsy.ru/#triumf-mini/</url>
+                <url>http://topteplitsy.ru/mini.html/</url>
                 <price>12400</price>
                 <currencyId>RUR</currencyId>
                 <categoryId>2</categoryId>
@@ -167,7 +167,7 @@
             </offer>
 
             <offer id="56x4x100" available="true">
-                <url>http://topteplitsy.ru/#triumf-kaplya</url>
+                <url>http://topteplitsy.ru/kaplya.html</url>
                 <price>15500</price>
                 <currencyId>RUR</currencyId>
                 <categoryId>2</categoryId>
@@ -204,7 +204,7 @@
             </offer>
 
             <offer id="21x4x100" available="true">
-                <url>http://topteplitsy.ru/#triumf-kremlevskaya</url>
+                <url>http://topteplitsy.ru/kremlevskaya.html</url>
                 <price>18600</price>
                 <currencyId>RUR</currencyId>
                 <categoryId>2</categoryId>
@@ -241,7 +241,7 @@
             </offer>
 
             <offer id="62x4x100" available="true">
-                <url>http://topteplitsy.ru/#triumf-narodnaya</url>
+                <url>http://topteplitsy.ru/narod.html</url>
                 <price>14500</price>
                 <currencyId>RUR</currencyId>
                 <categoryId>2</categoryId>
@@ -279,7 +279,7 @@
             </offer>
 
             <offer id="3x4x100" available="true">
-                <url>http://topteplitsy.ru/#triumf-aluma</url>
+                <url>http://topteplitsy.ru/aluma.html</url>
                 <price>19500</price>
                 <currencyId>RUR</currencyId>
                 <categoryId>2</categoryId>
@@ -313,7 +313,7 @@
             </offer>
 
             <offer id="66x4x100" available="true">
-                <url>http://topteplitsy.ru/#triumf-sphera</url>
+                <url>http://topteplitsy.ru/sphera.html</url>
                 <price>21800</price>
                 <currencyId>RUR</currencyId>
                 <categoryId>2</categoryId>
@@ -350,7 +350,7 @@
             </offer>
 
             <offer id="69x4x100" available="true">
-                <url>http://topteplitsy.ru/#triumf-domik/</url>
+                <url>http://topteplitsy.ru/domik.html</url>
                 <price>14800</price>
                 <currencyId>RUR</currencyId>
                 <categoryId>2</categoryId>
